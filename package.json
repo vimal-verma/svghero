@@ -1,0 +1,22 @@
+{
+  "name": "svghero",
+  "version": "0.0.1",
+  "description": "hello",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vimalverma558/svghero.git"
+  },
+  "keywords": [
+    "Svg"
+  ],
+  "author": "Vimalverma558",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vimalverma558/svghero/issues"
+  },
+  "homepage": "https://github.com/vimalverma558/svghero#readme"
+}
