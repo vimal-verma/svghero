@@ -1,17 +1,10 @@
 .svg-hero{
     display: flex;
-    background-color: aqua;
+    background-color: #15031e;
     position: fixed;
     top: 0;
-}
-#img{
-    width: 50%;
-}
-img{
-    width: 100%;
-}
-#text{
-    width: 50%;
+    left: 0;
+    color: aliceblue;
 }
 #canbut{
     position: fixed;
@@ -21,4 +14,40 @@ img{
     background-color: red;
     padding: 10px;
     border-radius: 5px;
+}
+.showdiv{
+    width: 100vw;
+    height: 100vh;
+}
+.title{
+    margin-top: 4%;
+    text-align: center;
+}
+.imgsec{
+    display: flex;
+}
+.img{
+    width: 60%;
+}
+.text{
+    width: 40%;
+    margin: 10%;
+}
+.img svg{
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .imgsec{
+        display: flex;
+        flex-direction: column;
+    }
+    .img{
+        width: 100%;
+    }
+    .text{
+        width: 100%;
+        padding: 10px;
+    }
+
 }
