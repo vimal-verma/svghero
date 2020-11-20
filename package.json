@@ -1,6 +1,6 @@
 {
   "name": "svghero",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "hello",
   "main": "index.js",
   "scripts": {
