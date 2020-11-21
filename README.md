@@ -1,5 +1,7 @@
 # svghero: Javascript package for hero effect in SVG
-![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/c0jzkxn6nxcerpfxjh6w.gif)
+[![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/za2fmp2khp1tn450c8yv.gif)](https://www.youtube.com/watch?v=n69Xqy9Q5kk)
+
+Video links - https://www.youtube.com/watch?v=n69Xqy9Q5kk
 
 you can get that effect by one line of code `svghero(id,title,text,width,height,x,y)`
 
