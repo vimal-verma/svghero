@@ -1,4 +1,4 @@
-const svghero = (id,title,text,width,height,x,y) =>
+const svghero = (id,title,text,width,height,x,y,scale) =>
 {
     let Uid = document.getElementById(id)
 
@@ -30,12 +30,12 @@ const svghero = (id,title,text,width,height,x,y) =>
     `
 
     let htmlshow= `
-    <div class="showdiv">
-        <div class="title"><h1>${title}</h1></div>
-        <div id="canbut">X</div>
-        <div class="imgsec">
-            <div class="img">${showsvg}</div>
-            <div class="text">${text}</div>
+    <div class="svghero_showdiv">
+        <div class="svghero_title"><h1>${title}</h1></div>
+        <div id="svghero_canbut">X</div>
+        <div class="svghero_imgsec">
+            <div id="svg_img_scale" class="svghero_img">${showsvg}</div>
+            <div class="svghero_text">${text}</div>
         </div>
     </div>
     `
@@ -45,10 +45,13 @@ const svghero = (id,title,text,width,height,x,y) =>
     
     Uid.addEventListener('click', () => {
         svg_hero.innerHTML = htmlshow
+        let Uvid = document.getElementById("svg_img_scale")
+        Uvid.style.scale=`${scale}`
 
-        const canbut = document.getElementById('canbut')
+        const canbut = document.getElementById('svghero_canbut')
         canbut.addEventListener('click', () => {
             svg_hero.innerHTML = null
         })
+        
     })
 };

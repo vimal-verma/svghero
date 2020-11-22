@@ -6,7 +6,7 @@
     left: 0;
     color: aliceblue;
 }
-#canbut{
+#svghero_canbut{
     position: fixed;
     top: 10px;
     right: 10px;
@@ -15,37 +15,39 @@
     padding: 10px;
     border-radius: 5px;
 }
-.showdiv{
+.svghero_showdiv{
     width: 100vw;
     height: 100vh;
 }
-.title{
+.svghero_title{
     margin-top: 4%;
     text-align: center;
 }
-.imgsec{
+.svghero_imgsec{
     display: flex;
 }
-.img{
+.svghero_img{
     width: 60%;
+    z-index: -1;
 }
-.text{
+.svghero_text{
     width: 40%;
     margin: 10%;
 }
-.img svg{
+.svghero_img svg{
     width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
-    .imgsec{
+    .svghero_imgsec{
         display: flex;
         flex-direction: column;
     }
-    .img{
+    .svghero_img{
         width: 100%;
+        z-index: -1;
     }
-    .text{
+    .svghero_text{
         width: 100%;
         padding: 10px;
     }

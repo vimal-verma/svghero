@@ -1,7 +1,7 @@
 {
   "name": "svghero",
   "version": "0.1.1",
-  "description": "hello",
+  "description": "svghero: Javascript package for hero effect in SVG",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,12 @@
     "url": "git+https://github.com/vimalverma558/svghero.git"
   },
   "keywords": [
-    "Svg"
+    "Svg",
+    "svghero",
+    "svg map",
+    "svg img",
+    "svg animation",
+    "svg effect"
   ],
   "author": "Vimalverma558",
   "license": "MIT",
