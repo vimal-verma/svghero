@@ -18,8 +18,8 @@ you can get that effect by one line of code `svghero(id,title,text,width,height,
 ### How to use this
 - Copy and paste this code in body section of html.
   ```html
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/svghero@0.1.1/example/style.css">
-      <script src="https://cdn.jsdelivr.net/npm/svghero@0.1.1/cdn.js"></script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/svghero@0.2.0/example/style.css">
+      <script src="https://cdn.jsdelivr.net/npm/svghero@0.2.0/cdn.js"></script>
   ```
 - in `script` tag or in js file add `svghero(id,title,text,width,height,x,y,scale)`
 
